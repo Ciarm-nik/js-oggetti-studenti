@@ -53,5 +53,27 @@ for (var key in studenti) {
 // Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
 
+var classe = [
+    studente1 = {
+        nome: 'Stefano',
+        cognome: 'Rossi',
+        età: '33'
+    },
+    studente2 = {
+        nome: 'Vincenzo',
+        cognome: 'Verdi',
+        età: '45'
+    }
+];
 
+console.log(classe)
+
+studente3 = {
+    nome: prompt('Inserisci il tuo nome'),
+    cognome: prompt('Inserisci il tuo cognome'),
+    età: prompt('Inserisci la tua età'),
+};
+
+classe.push(studente3);
+console.log(classe);
 
